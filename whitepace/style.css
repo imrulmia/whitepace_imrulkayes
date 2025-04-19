@@ -6,13 +6,6 @@
 /* dm sans */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
 
-/* color 
-#043873
-#FFE492
-#4F9CF9
-#FFFFFF
-
-*/
 
 body{
   font-family: "Inter",sans-serif;
@@ -20,4 +13,79 @@ body{
   font-size: 18px;
   background-color: #c4defd;
   color: #ffffff;
+}
+
+.navbar-nav{
+  margin: auto;
+}
+.header-area{
+  background-color: #043873;
+  color: white;
+  padding: 16px 220px;
+  text-align: center;
+}
+
+.header-area .nav-link{
+  color: white;
+  font-family: "DM Sans",sans-serif;
+  font-weight: 500;
+  margin-left: 24px;
+  padding: 16px 24px !important;
+}
+
+
+.demo-btn{
+  display: inline-block;
+  background-color: #4F9CF9;
+  padding: 16px 24px !important;
+  border-radius: 8px;
+  text-align: center;
+}
+.demo-btn-2{
+  display: inline-block;
+  background-color: #FFE492;
+  color: black !important;
+  padding: 16px 24px !important;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.demo-btn img{
+  margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 990px){
+  
+  .demo-btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+   
+   
+  }
+  .demo-btn-2{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+    
+  }
+
+  .header-area{
+    background-color: #043873;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+  }
+
+  .header-area .nav-link{
+    color: white;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    margin-left: 0px;
+    padding: 16px 24px !important;
+  }
 }
